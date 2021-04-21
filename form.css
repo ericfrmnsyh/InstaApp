@@ -1,0 +1,201 @@
+@font-face{
+    font-family: 'Little-Sunshine';
+    src: url(./fonts/Alittlesunshine.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Modeka';
+    src: url(./fonts/modeka-webfont.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Orson';
+    src: url(./fonts/sf_orson_casual_heavy-webfont.woff) format('woff');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Orson';
+    width: auto;
+    height: auto;
+    background: #edf6f9;
+    display: block;
+}
+
+.app-bar{
+    height: 130px;
+    clear: both;
+    background-color: #284B63;
+    display: block;
+    margin-top: 0;
+    box-sizing: border-box;
+    color: #F4F4F4;
+    font-family: 'Simplicity';
+    font-size: 45px;
+    padding: 16px;
+}
+
+.nav{
+    font-size: 20px;
+    height: 30px;
+    background-color: #3C6E71;
+    clear: both;
+    display: block;
+    text-align: right;
+    position: sticky;
+    margin: auto;
+    float: right;
+}
+
+a {
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #E0FBFC;
+}
+
+a:hover, .offcanvas a:focus{
+    color: #E0FBFC;
+}
+
+main{
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    object-position: center;
+    clear: both;
+    margin-top: 50px;
+}
+
+fieldset{
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background:#284B63;
+    color: #f1faee;
+    font-size: 14px;
+    padding: 10px;
+    box-shadow: 0 10px 10px 0 antiquewhite;
+    border-radius: 10px 10px 10px 10px;
+    position: sticky;
+    object-position: center;
+    opacity: 0.8;
+}
+
+legend {
+	color: antiquewhite;
+    text-align: center;
+    font-family: 'Modeka';
+    font-size: 32px;
+}
+
+label {
+    color: #FEFAE0;
+    font-size: 25px;
+    margin-top: 7%;
+}
+
+h1{
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.form
+{
+    margin-top: 2%;
+    width: 100%;
+}
+
+.kontrol-form {
+    font-family: 'Orson';
+    margin-top: 2%;
+    width: 100%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid antiquewhite;
+    color: #FEFAE0;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+p{
+    font-size: 19px;
+    color: gold;
+}
+
+input {
+    height: 5%;
+    color: #FEFAE0;
+    background: transparent;
+}
+
+input[type=submit]  {
+	box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid antiquewhite;
+    border-radius: 7px 7px 7px 7px;
+    color: antiquewhite;
+    cursor: pointer;
+    display: block;
+    align-self: center;
+    font-family: 'Modeka';
+    font-weight: 400;
+    margin: 20px;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 10px;
+}
+
+input[type=reset] {
+	box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid antiquewhite;
+    border-radius: 7px 7px 7px 7px;
+    color: antiquewhite;
+    cursor: pointer;
+    display: block;
+    align-self: center;
+    font-family: 'Modeka';
+    font-weight: 400;
+    margin: 20px;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 10px;
+}
+
+input[type=submit]:hover  {
+    background-color: antiquewhite;
+    color: #3C6E71;
+	cursor: pointer;
+}
+
+input[type=reset]:hover  {
+    background-color: antiquewhite;
+    color: #3C6E71;
+	cursor: pointer;
+}
+
+.button{
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    text-align: center;
+    font-size: 25px;
+    color: antiquewhite;
+}

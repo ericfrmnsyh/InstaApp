@@ -1,0 +1,233 @@
+@font-face{
+    font-family: 'Simplicity';
+    src: url(./fonts/simplicity-webfont.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Modeka';
+    src: url(./fonts/modeka-webfont.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Orson';
+    src: url(./fonts/sf_orson_casual_heavy-webfont.woff) format('woff');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Orson';
+    width: auto;
+    height: auto;    
+    background: #edf6f9;
+    display: block;
+}
+
+.app-bar{
+    height: 130px;
+    clear: both;
+    background-color: #284B63;
+    display: block;
+    margin-top: 0;
+    box-sizing: border-box;
+    color: #F4F4F4;
+    font-family: 'Simplicity';
+    font-size: 45px;
+    padding: 16px;
+}
+
+.nav{
+    font-size: 20px;
+    height: 30px;
+    background-color: #3C6E71;
+    clear: both;
+    display: block;
+    text-align: right;
+    position: sticky;
+    margin: auto;
+    float: right;
+}
+
+a {
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #D9D9D9;
+}
+
+a:hover, .offcanvas a:focus{
+    color: #E0FBFC;
+}
+
+main{
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    object-position: center;
+    clear: both;
+    margin-top: 50px;
+}
+
+.diskusi{
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 #04151F;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+}
+
+.box{
+    margin-top: 5%;
+    background: transparent;
+    padding: 15px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.id{
+    display: block;
+    margin-left: 600px;
+    width: 90px;
+    text-align: center;
+    background: #D6AF61;
+    color: #183A37;
+    height: 25px;
+    margin-top: 0;
+}
+
+.Tanya{
+    display: block;
+    margin: auto;
+    background: transparent;
+    color: #353535;
+    padding: 15px;
+    height: 195px;
+}
+
+.Jawab{
+    background-color: #D9D9D9;
+    color: #E0FBFC;
+    padding: 15px;
+    width: auto;
+    text-align: right;
+    height: 195px;
+    color: #353535;
+}
+
+.tgl{
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.head {
+    color: #EE6C4D;
+    font-size: 25px;
+    width: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.user {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+fieldset{
+    margin-top: 70px;
+    margin: 0 auto;
+    font-family: 'Orson';
+    background: transparent;
+    font-size: 14px;
+    padding: 10px;
+    box-shadow: 0 20px 20px 0 #212F45;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    position: sticky;
+}
+
+.kontrol-form {
+    margin-top: 2%;
+    width: 95%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #3D5A80;
+    color: black;
+    font-family: 'Orson';
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input {
+    height: 5%;
+    background: transparent;
+    float: inline-end;
+}
+
+input[type=text]  {
+    margin-top: 10px;
+    width: 552px;
+}
+
+
+input[type=submit]  {
+	box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #3C6E71;
+    border-radius: 7px 7px 7px 7px;
+    color: #293241;
+    cursor: pointer;
+    font-family: 'Modeka';
+    font-weight: 400;
+    margin: 20px;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 5px;
+}
+
+input[type=submit]:hover  {
+    background-color: #3C6E71;
+    color: #E0FBFC;
+	cursor: pointer;
+}
+
+form{
+    padding: 10px;
+}
+
+.lytkiri{
+	float: left;
+}
+
+.lytkiri img{
+	width: 400px ;
+	height: 400px;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.lytkanan {
+	margin-top: 100px;
+	padding-left: 50px;
+	padding-right: 140px;
+    float: right;
+    font-size: 50px;
+}
+
+.clear{
+    clear: both;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
